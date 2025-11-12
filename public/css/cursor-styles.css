@@ -1,0 +1,12 @@
+/* Custom Cursor Styles */
+* {
+  cursor: url('/cursors/normal.cur'), auto;
+}
+
+button, .quantity-btn, .remove-btn, .checkout-btn {
+  cursor: url('/cursors/normal.cur'), auto !important;
+}
+
+input, textarea, select, [contenteditable="true"] {
+  cursor: url('/cursors/text.cur'), text !important;
+}
