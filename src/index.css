@@ -51,3 +51,16 @@ h3 {
         transform: translateY(0);
     }
 }
+
+.sticky-form {
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    z-index: 100;
+}
+@media (min-width: 768px) {
+    .task-list-scroll {
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+    }
+}
