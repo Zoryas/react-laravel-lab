@@ -17,8 +17,6 @@ function App() {
 
   return (
     <Container fluid className='py-4'>
-      <h1 className='text-center mb-4 fade-in app-title'>Task Lab Exam</h1>
-
       <Row>
         <Col md={4} lg={3}>
           <div className='sticky-form'>
